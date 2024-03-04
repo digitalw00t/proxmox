@@ -1,6 +1,7 @@
 #!/bin/bash
 # Author: Draeician (3/2024)
 # Purpose:  Stop the nag screen after login on a proxmox system
+# Execution: curl -sSL  https://raw.githubusercontent.com/digitalw00t/proxmox/main/nonag.bash
 
 FILE_PATH="/usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js"
 BACKUP_PATH="${FILE_PATH}.original"
